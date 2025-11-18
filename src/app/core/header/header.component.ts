@@ -18,8 +18,6 @@ export class HeaderComponent {
   public isMobileMenuOpen = false;
   public languages = [
     { code: Language.EN, label: 'EN' },
-    { code: Language.UA, label: 'UA' },
-    { code: Language.HR, label: 'HR' }
   ];
 
   constructor(private readonly translationService: TranslationService) {

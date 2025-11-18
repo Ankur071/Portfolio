@@ -1,0 +1,37 @@
+{
+  "name": "portfolio",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "build:optimized": "ng build --configuration=optimized",
+    "build:prod": "ng build --configuration=production",
+    "build:dev": "ng build --configuration=development",
+    "build:github": "ng build --configuration=production --base-href='https://keeroll.github.io/Portfolio/'",
+    "watch": "ng build --watch --configuration development",
+    "serve:optimized": "ng serve --configuration=optimized",
+    "serve:prod": "ng serve --configuration=production",
+    "analyze": "ng build --configuration=optimized --stats-json && npx webpack-bundle-analyzer dist/portfolio/stats.json"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/common": "^20.1.0",
+    "@angular/compiler": "^20.1.0",
+    "@angular/core": "^20.1.0",
+    "@angular/forms": "^20.1.0",
+    "@angular/platform-browser": "^20.1.0",
+    "@angular/platform-browser-dynamic": "^20.1.0",
+    "@angular/router": "^20.1.0",
+    "@ngx-translate/core": "^16.0.4",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.15.0"
+  },
+  "devDependencies": {
+    "@angular/build": "^20.1.0",
+    "@angular/cli": "^20.1.0",
+    "@angular/compiler-cli": "^20.1.0",
+    "typescript": "~5.8.3"
+  }
+}

@@ -1,0 +1,37 @@
+<app-container>
+    <div class="about-wrapper">
+        <div class="about-left" appFadeIn [delay]="0">
+            <p class="intro" appFadeIn [delay]="200">{{ 'about.title' | translate }}</p>
+            <h1 class="name" appFadeIn [delay]="400">Keeroll</h1>
+            <p class="description" appFadeIn [delay]="600">
+                {{ 'about.description' | translate }}
+            </p>
+        </div>
+
+        <div class="about-right" appFadeIn [delay]="200">
+            <div class="socials" appFadeIn [delay]="400">
+                <a href="https://github.com/keeroll" target="_blank" aria-label="GitHub" class="github" title="{{ 'links.github' | translate }}">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/kirillakatov" target="_blank" aria-label="LinkedIn" class="linkedin" title="{{ 'links.linkedin' | translate }}">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://youtube.com/@KeeRoll" target="_blank" aria-label="YouTube" class="youtube" title="{{ 'links.youtube' | translate }}">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="mailto:kirillakatov@gmail.com" aria-label="Email" aria-label="E-mail" class="email" title="{{ 'links.personalEmail' | translate }}">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+
+            <div class="tags" appFadeIn [delay]="600">
+                <app-tag label="Angular"></app-tag>
+                <app-tag label=".NET"></app-tag>
+                <app-tag label="WebDev"></app-tag>
+                <app-tag label="TypeScript"></app-tag>
+                <app-tag label="Unity"></app-tag>
+                <app-tag label="Fullstack"></app-tag>
+            </div>
+        </div>
+    </div>
+</app-container>

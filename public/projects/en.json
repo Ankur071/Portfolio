@@ -1,0 +1,67 @@
+[
+  {
+    "id": "portfolio-app",
+    "title": "Portfolio App",
+    "description": "Angular portfolio with localization, certificates, and CV. Designed with a retrowave aesthetic.",
+    "image": "project-img/portfolio-app.png",
+    "tags": [
+      "Angular",
+      "TypeScript",
+      "Scss",
+      "Responsive",
+      "Localization",
+      "Retrowave"
+    ],
+    "youtubeUrl": "",
+    "sourceUrl": "https://github.com/Ankur071/Portfolio",
+    "liveUrl": "",
+    "downloadUrl": "",
+    "detailedDescription": [
+      {
+        "title": "Overview",
+        "content": "Portfolio web app created using Angular 20. It showcases projects, certificates, and includes my CV in multiple languages. The site is styled with a retrowave-inspired theme and is fully responsive."
+      },
+      {
+        "title": "Key Features",
+        "content": "Supports internationalization (i18n) with multiple language options, responsive layout for different devices, modular and scalable architecture, and smooth visual transitions."
+      },
+      {
+        "title": "Technical Stack",
+        "content": "Angular 20, TypeScript, SCSS, Angular Router, modern CSS (Flexbox, Grid). Built using Angular best practices for production-ready deployment."
+      }
+    ]
+  },
+  {
+    "id": "modern-store",
+    "title": "Modern Store",
+    "description": "Full-stack e-commerce platform with Angular frontend and modern UI/UX design.",
+    "image": "project-img/modern-store.jpg",
+    "tags": [
+      "Angular",
+      "TypeScript",
+      "E-commerce",
+      "Full-stack",
+      "Responsive",
+      "UI/UX"
+    ],
+    "youtubeUrl": "",
+    "sourceUrl": "https://github.com/Ankur071/Modern-Store",
+    "liveUrl": "",
+    "downloadUrl": "",
+    "detailedDescription": [
+      {
+        "title": "Overview",
+        "content": "Modern Store is a full-featured e-commerce platform built with Angular, featuring product catalog, shopping cart, user authentication, and payment integration."
+      },
+      {
+        "title": "Key Features",
+        "content": "Comprehensive product management system, shopping cart functionality, user authentication and profile management, responsive design for all devices, and modern UI/UX with smooth animations."
+      },
+      {
+        "title": "Technical Stack",
+        "content": "Built with Angular, TypeScript, and modern web technologies. Features component-based architecture, state management, and RESTful API integration."
+      }
+    ]
+  }
+
+]
